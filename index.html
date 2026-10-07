@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>アイカツ！アンコール カード帳</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>アイカツ！アンコール</h1>
+    <p>カード帳</p>
+  </div>
+  <div class="rate"><b id="ownedRate">0%</b><span>所持率</span></div>
+</header>
+<main>
+  <section class="summary">
+    <span>第1弾</span><strong><span id="ownedCount">0</span> / <span id="totalCount">0</span>枚</strong>
+  </section>
+  <section id="cardList" class="grid" aria-live="polite"></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
